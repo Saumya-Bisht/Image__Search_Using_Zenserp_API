@@ -1,0 +1,80 @@
+body{
+    background: rgb(2,27,43);
+background: linear-gradient(90deg, rgba(2,27,43,1) 0%, rgba(54,4,57,1) 35%, rgba(9,85,105,1) 93%);
+}
+ 
+h1{
+    text-align: center;
+    padding: 10px;
+    color: azure;
+    letter-spacing: 0.2rem;
+}
+#input{
+    background-color: rgb(129, 155, 181);
+    border: 3px solid rgb(2, 26, 1);
+    box-shadow: 1px 2px 2px 1px rgb(31, 27, 64) ;
+    border-radius: 20px;
+}
+.container 
+{
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+    box-shadow: 10px 4px 10px 6px rgb(16, 48, 78);
+    /* border: 1px solid rgb(18, 1, 39); */
+
+}
+input 
+{
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9fafc;
+    width: 40%;
+    font-size: 1.5rem;
+    margin-left: 25%;
+    
+}
+.display_images{
+    
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:30px;
+}
+.display_images img 
+{
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    object-fit: cover;
+}
+#myimage{
+    height: 400px;
+    object-fit: cover;
+    width: 50%;
+    margin-left: 25%;
+}
+figcaption
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0.7rem;
+    color: #f9fafc;
+}
+button{
+    background-color: #140239;
+    color: white;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 80px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.foot{
+    color: #f9fafc;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgb(47, 30, 73);
+    
+}
+
